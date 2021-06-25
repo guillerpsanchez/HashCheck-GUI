@@ -1,4 +1,4 @@
-name: PyInstaller Windows
+name: Create Windows Binaries
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install pyinstaller
-    - name: build with pyinstaller
+    - name: Create Binarie
       run: |
         pyinstaller main.spec
     - name: Create Release
@@ -37,7 +37,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+        upload_url: ${{ steps.create_release.outputs.upload_url }} 
         asset_path: ./dist/HashCheck-GUI.exe
         asset_name: HashCheck-GUI.exe
         asset_content_type: application/exe
