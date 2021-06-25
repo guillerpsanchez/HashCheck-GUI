@@ -11,7 +11,7 @@ I'm working on a version for mac and linux, it will be ready in a few days.
 
 # License
 
-This project is licensed under the GNU General Public License - see the LICENSE file for details
+This project is licensed under the GNU General Public License - see the [LICENSE](https://github.com/guillerpsanchez/HashCheck-GUI/blob/main/LICENSE) file for details
 
 # Disclaimer
 
