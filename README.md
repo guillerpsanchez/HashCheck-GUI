@@ -6,7 +6,7 @@ Check the original project [here](https://github.com/Telefonica/HashCheck)
 # Windows
 You can download the latest version from [here](https://github.com/guillerpsanchez/HashCheck-GUI/releases)
 
-It is possible that windows detects "HashCheck-GUI.exe" as a malicious application, this is due to the lack of digital signature in the binary, remember to check the checksum of the release with that of the downloaded file to avoid possible problems.
+It is possible that windows detects "HashCheck-GUI.exe" as a malicious application, this is due to the lack of digital signature in the binary, remember to check the SHA-256 of the release to verify it´s integrity and avoid problems.
 
 # Changelog
 
