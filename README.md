@@ -6,8 +6,18 @@ Check the original project [here](https://github.com/Telefonica/HashCheck)
 # Windows
 You can download the latest version from [here](https://github.com/guillerpsanchez/HashCheck-GUI/releases)
 
-# Mac & Linux
-I'm working on a version for mac and linux, it will be ready in a few days.
+It is possible that windows detects "HashCheck-GUI.exe" as a malicious application, this is due to the lack of digital signature in the binary, remember to check the checksum of the release with that of the downloaded file to avoid possible problems.
+
+# Changelog
+
+v0.0.2:
+ - Added icon on ".exe" file.
+ - Added icon to window.
+ - Optimized code, now it should run a little faster.
+
+v0.0.1:
+  - Initial release
+  - Windows binary added.
 
 # License
 
