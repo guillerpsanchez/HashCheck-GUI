@@ -2,13 +2,18 @@ from PyQt5.QtWidgets import QLabel, QPushButton, QLineEdit, QFormLayout, QWidget
 from PyQt5 import QtGui
 from pass_lib import passme_password
 import sys
+import ctypes
+
+
+ID = 'dev.guillerpsanchez.HashCheck-GUI'
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(ID)
 
 
 class App(QWidget):
-    def __init__(self,parent=None):
+    def __init__(self, parent=None):
         super().__init__(parent)
 
-        #self.setFixedSize(1280, 720)
+        self.setFixedSize(500, 130)
         self.setWindowTitle("HasCheck-GUI")
 
         self.response = QLabel(self)
@@ -38,7 +43,7 @@ class App(QWidget):
 def main():
     app = QApplication(sys.argv)
     a = App()
-    app.setWindowIcon(QtGui.QIcon('img\logo\BTF_logo_original.png'))
+    app.setWindowIcon(QtGui.QIcon('img/lock-password-fill.png'))
     a.show()
     sys.exit(app.exec())
 
