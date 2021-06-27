@@ -11,12 +11,13 @@ It is possible that windows detects "HashCheck-GUI.exe" as a malicious applicati
 # Changelog
 
 v0.0.2:
+ - App Window now has the correct size.
  - Added icon on ".exe" file.
  - Added icon to window.
  - Optimized code, now it should run a little faster.
 
 v0.0.1:
-  - Initial release
+  - Initial release.
   - Windows binary added.
 
 # License
