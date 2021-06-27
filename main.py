@@ -1,11 +1,12 @@
 from PyQt5.QtWidgets import QLabel, QPushButton, QLineEdit, QFormLayout, QWidget, QApplication
 from PyQt5 import QtGui
+from PyQt5.QtCore import QSize
 from pass_lib import passme_password
 import sys
 import ctypes
+import resources
 
-
-ID = 'dev.guillerpsanchez.HashCheck-GUI'
+ID = u'dev.guillerpsanchez.HashCheck-GUI'
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(ID)
 
 
@@ -40,10 +41,11 @@ class App(QWidget):
         else:
             self.response.setText("Your password has not been filtered yet.")
 
+
 def main():
     app = QApplication(sys.argv)
     a = App()
-    app.setWindowIcon(QtGui.QIcon('img/lock-password-fill.png'))
+    app.setWindowIcon(QtGui.QIcon(':/icons/icon.png'))
     a.show()
     sys.exit(app.exec())
 
