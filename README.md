@@ -1,20 +1,22 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# HashCheck-GUI 
+This is a GUI of the HashCheck tool, which allows anyone to safely check whether their password has been leaked or not. 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Check the original project [here](https://github.com/Telefonica/HashCheck)
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Windows
+You can download the latest version from [here](https://github.com/guillerpsanchez/HashCheck-GUI/releases)
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+# Mac & Linux
+I'm working on a version for mac and linux, it will be ready in a few days.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# License
+
+This project is licensed under the GNU General Public License - see the [LICENSE](https://github.com/guillerpsanchez/HashCheck-GUI/blob/main/LICENSE) file for details
+
+# Disclaimer
+
+In many places it can be a crime to install software on a computer that does not belong to you, without the owner's consent. We do not approve the use of PoC for any illegal purpose.  To download or use our software in any way, you must acknowledge and approve the following:
+
+1 - You declare that this PoC will be used exclusively in a legal manner. If you are in doubt as to the legality, consult a licensed attorney in the jurisdiction where you will be using this PoC.
+
+2 - You acknowledge that the computer on which the software is to be installed is yours or you have the owner's consent to manage and install the software on it.
